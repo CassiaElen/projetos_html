@@ -1,0 +1,45 @@
+body{
+	animation:gradient 10s ease infinite;
+	background:linear-gradient(-45deg, #eff3cd, #b2d5ba, #61ada0, #248f8d, #2f615e) no-repeat;
+	background-size:300% 300%;
+	margin:100px;
+}
+
+.conteiner{
+	border-radius:8px;
+    border-color:##95003a;
+    background:#b2d5ba;
+	box-shadow:0 3px 3px #61ada0;
+    padding:25px;
+    max-width: 750px;
+	margin: 20px auto;
+    column-rule-style:solid, #a9b79e;
+    column-count:2;
+    column-span: all;  
+}
+
+.foto-perfil{
+	height: 300px;
+	width:300px;
+    padding-left:25px;
+    border-radius: 50%;
+}
+
+.paragrafo{
+    font-size: 25px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color:#45444e;
+}
+
+@keyframes gradient{
+   0%  {
+		background-position: 0 50%;
+	}
+	
+   50% {
+		background-position: 100% 50%;
+	}
+   100%{
+	    background-position: 0 50%;
+   }	   
+}
