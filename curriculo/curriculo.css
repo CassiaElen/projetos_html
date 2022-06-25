@@ -1,0 +1,101 @@
+*{
+    margin: 0px;
+    padding: 0%;
+}
+
+body{
+    background:rgb(153, 151, 255);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 20px;
+}
+
+#cabeçalho{
+    background: rgb(122, 120, 211);
+    
+}
+
+#titulo-cabeçalho{
+    font-size: 60px;
+    padding: 10px auto;
+    padding-left: 500px;
+}
+
+#sociais-cabeçalho{
+    padding: 10px;
+    padding-left: 1220px;
+}
+
+.container{
+    padding: 10px;
+}
+
+.bloco-padrão{
+    display: flex;
+    padding-left: 15px;
+    padding-top: 20px;
+    height: 200px;
+}
+.titulo-padrao{
+    width: 600px;
+    font-size: 50px;
+    color: rgb(23, 23, 44);
+}
+
+.area-texto{
+    padding-top: 50px;
+    font-size: 30px;
+    color: rgb(45, 82, 153);
+}
+
+#rodape{
+    background: rgb(122, 120, 211);
+}
+
+.cont-flex{
+    display: flex;
+    padding: 20px;
+}
+
+#sociais-rodape{
+    padding-left: 890px;
+}
+
+#linha{
+    height: 2px;
+    width: 1290px;
+    background:rgb(148, 150, 255);
+    margin-left: 20px;
+}
+
+#tex{
+    text-align: center;
+    color: rgb(23, 23, 44);
+}
+
+@media screen and (max-width:780px){
+    
+    #titulo-cabeçalho{
+        padding-left: 90px;
+    }
+    
+    #sociais-cabeçalho{
+        padding-left: 200px;
+    }
+
+    .bloco-padrão{
+       flex-direction: column; 
+    }
+
+    .area-texto{
+        padding-top: 3px;
+    }
+
+    .cont-flex{
+        flex-direction: column;
+        text-align: center;
+    }
+    #sociais-rodape{
+        padding-top: 10px;
+        padding-left: 20px;
+    }
+}
